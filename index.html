@@ -3,65 +3,313 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jadwal Pelajaran</title>
-    <link rel="stylesheet" href="styles.css">
-    </head>
+    <title>JADWAL PELAJARAN XII-10</title>
+    <link rel="stylesheet" href="https://unpkg.com/fieldset-legend@1/fieldset-legend.css">
+    <link rel="stylesheet" href="https://unpkg.com/augmented-ui@2/augmented-ui.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+    <style>
+        .my-classname {
+            padding: 25px;
+            padding-right: 35px;
+            --fl-right: 15%;
+        }
+
+        .my-classname h1 {
+            padding: 0.33em 3vw;
+            color: white;
+        }
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+.more {
+            display: none; /* Sembunyikan teks tambahan */
+        }
+        .read-more {
+            color: blue;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #0d1117;
+    transition: background-color 0.3s;
+}
+
+.social-button:hover {
+    background-color: black;
+}
+
+.item {
+         background-color:  #232323;
+}
+}
+.social-button img {
+    width: auto;
+    height: 30px;
+}
+        .my-classname .augs {
+            position: absolute;
+            inset: 0px;
+            mask: var(--fl-mask);
+            --aug-inlay-all: 5px;
+            --aug-inlay-bg: var(--pjbg);
+            --aug-r-extend1: 30%;
+            --aug-r1: 1.5rem;
+            --aug-b1: 0.5rem;
+            --aug-bl1: 0.75rem;
+            --aug-bl-extend1: 2rem;
+            --aug-b-center: 7.75rem;
+            --aug-b-extend1: 3rem;
+            --aug-border-bg: linear-gradient(45deg, cyan, hotpink 20% 50%, cyan);
+        }
+
+        body {
+            font-family: sans-serif;
+            color: white;
+            display: flex-wrap;
+            background: repeating-linear-gradient(
+                45deg,
+                hsla(314deg, 100%, 50%, 25%) 0px 5px,
+                #8100f044 0px 10px
+            ), black;
+            --pjbg: linear-gradient(hsla(314deg, 100%, 50%, 40%) 0px 90px) no-repeat, url(https://github.com/propjockey/propjockey-brand/assets/7545075/f003ff3c-8b31-4823-ac37-703307a98c94) calc(100% - 10px) 9px / auto 40px no-repeat;
+        }
+
+/* end footer section*/
+/*# sourceMappingURL=style.css.map */
+    </style>
+</head>
 <body>
-    <section class="pricing-section">
-        <h1 class="section-title">Jadwal Pelajaran</h1>
-        <div class="item-container">
-            <div class="card">
-                <h2 class="card-title">Senin</h2>
-                <ul class="card-list">
-                    <li>PAK</li>
-                    <li>EKONOMI</li>
-                    <li>GEOGRAFI</li>
-                    <li>SOSIOLOGI</li>
-                </ul>
+     <article class="fieldset-legend-custom my-classname">
+        <div data-augmented-ui="both tl-2-clip-x r-scoop-y br-round b-step-xy bl-2-step-inset" class="augs"></div>
+        <h1 class="fieldset-legend-title">SENIN</h1>
+        <h2>PAK</h2>
+        <h2>EKONOMI</h2>
+        <h2>GEOGRAFI</h2>
+        <h2>SOSIOLOGI</h2>
+    </article>
+
+    <article class="fieldset-legend-custom my-classname">
+        <div data-augmented-ui="both tl-2-clip-x r-scoop-y br-round b-step-xy bl-2-step-inset" class="augs"></div>
+        <h1 class="fieldset-legend-title">SELASA</h1>
+        <h2>B.INDONESIA</h2>
+        <h2>PPKN</h2>
+        <h2>B.LAMPUNG</h2>
+        <h2>B.INGGRIS</h2>
+        <h2>SEJARAH</h2>
+    </article>
+
+    <article class="fieldset-legend-custom my-classname">
+        <div data-augmented-ui="both tl-2-clip-x r-scoop-y br-round b-step-xy bl-2-step-inset" class="augs"></div>
+        <h1 class="fieldset-legend-title">RABU</h1>
+        <h2>GEOGRAFI</h2>
+        <h2>AGAMA</h2>
+        <h2>PJOK</h2>
+        <h2>MATEMATIKA</h2>
+    </article>
+
+    <article class="fieldset-legend-custom my-classname">
+        <div data-augmented-ui="both tl-2-clip-x r-scoop-y br-round b-step-xy bl-2-step-inset" class="augs"></div>
+        <h1 class="fieldset-legend-title">KAMIS</h1>
+        <h2>SOSIOLOGI</h2>
+        <h2>B.INDONESIA</h2>
+        <h2>SENI BUDAYA</h2>
+        <h2>BIOLOGI</h2>
+    </article>
+
+    <article class="fieldset-legend-custom my-classname">
+        <div data-augmented-ui="both tl-2-clip-x r-scoop-y br-round b-step-xy bl-2-step-inset" class="augs"></div>
+        <h1 class="fieldset-legend-title">JUMAT</h1>
+        <h2>EKONOMI</h2>
+        <h2>MATEMATIKA</h2>
+        <h2>BIOLOGI</h2>
+    </article>
+
+  <section class="client_section">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          TOP COMMENT SERVER
+        </h2>
+      </div>
+      <div class="carousel-wrap ">
+        <div class="owl-carousel">
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/c-1.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                   Japran<br>
+                  <span>
+                    coomslayer
+                  </span>
+                </h5>
+                <img src="images/quote.png" alt="">
+                <p>
+                  Sell Pc I5¹³ RTX 3090 ti 
+                </p>
+              </div>
             </div>
-            <div class="card">
-                <h2 class="card-title">Selasa</h2>
-                <ul class="card-list">
-                    <li>B.INDONESIA</li>
-                    <li>PPKN</li>
-                    <li>B.LAMPUNG</li>
-                    <li>B.INGGRIS</li>
-                    <li>SEJARAH</li>
-                </ul>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/c-2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  M.Steven Wijaya <br>
+                  <span>
+                   MIKU Fans 01# 🎇
+                  </span>
+                </h5>
+                <img src="images/quote.png" alt="">
+                <p>
+                       Semua harus menghormati Miku. Ini berarti bahwa konten apa pun yang mengobjektifikasi Miku, tidak menyenangkan, atau tidak menyenangkan (tergantung pada kebijaksanaan mod/komunitas) tidak diperbolehkan.
+                </p>
+              </div>
             </div>
-            <div class="card">
-                <h2 class="card-title">Rabu</h2>
-                <ul class="card-list">
-                    <li>GEOGRAFI</li>
-                    <li>AGAMA</li>
-                    <li>PJOK</li>
-                    <li>MTK</li>
-                </ul>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/c-3.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  そらのいろ<br>
+                  <span>
+                    imouto
+                  </span>
+                </h5>
+                <img src="images/quote.png" alt="">
+                <p>
+                  バカな兄弟, oni-chan no baka
+                </p>
+              </div>
             </div>
-            <div class="card">
-                <h2 class="card-title">Kamis</h2>
-                <ul class="card-list">
-                    <li>SOSIOLOGI</li>
-                    <li>B.INDONESIA</li>
-                    <li>SENI BUDAYA</li>
-                    <li>BIOLOGI</li>
-                </ul>
+          </div>
+          <div class="item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/c-4.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Alfian(suami alya)<br>
+                  <span>
+                    sorry pake pp cwe gwa
+                  </span>
+                </h5>
+                <img src="images/quote.png" alt="">
+                <p>Foto ini, teringat saat pagi hujan itu…, aku ceritain singkat aja… <span class="more">Pagi itu, hujan turun lembut seperti memeluk bumi yang tengah letih. Aku menatap ke luar jendela, melihat rintik-rintik air menetes dari daun-daun pohon mangga di halaman. Langit yang kelabu tak mampu menghapus rasa hangat di hatiku.
+
+"Aku buatkan teh, ya?" Suara lembut Alya membuyarkan lamunanku. Dia muncul dari balik pintu dapur dengan senyum yang selalu berhasil membuatku merasa dunia ini baik-baik saja. Rambutnya yang silver panjang masih sedikit basah—mungkin karena tadi dia terburu-buru menyelamatkan jemuran sebelum hujan benar-benar deras.
+
+"Tehnya manis, ya?" tanyaku sambil tersenyum kecil.
+
+Dia tertawa pelan, suara yang seperti melodi di tengah derasnya hujan. "Tentu, seperti biasa. Tidak mungkin aku salah lagi seperti dulu."
+
+Ah, aku ingat. Saat pertama kali dia membuatkan teh untukku, Alya, yang waktu itu masih menjadi teman dekat, salah menakar gula. Alih-alih manis, teh itu lebih mirip larutan obat pahit. Tapi itulah salah satu momen awal yang membuatku jatuh cinta—cara dia meminta maaf dengan pipi merona, begitu tulus, begitu Alya.
+
+Tidak lama kemudian, dia kembali dengan dua cangkir teh hangat. Aku menatapnya duduk di sampingku, mengenakan sweater rajut yang kebesaran. Kami duduk bersebelahan di sofa, memandangi hujan yang semakin deras. Rasanya, momen-momen sederhana seperti inilah yang paling membuatku bersyukur.
+
+"Kamu tahu," ujarku tiba-tiba.
+
+"Apa?" Alya menoleh, matanya yang besar memancarkan rasa ingin tahu.
+
+"Aku sering bertanya-tanya bagaimana bisa aku seberuntung ini." Aku menatapnya lekat, memastikan setiap kata yang keluar dariku benar-benar sampai ke hatinya. "Punya kamu di hidupku, Alya, itu hadiah yang bahkan tidak pernah aku minta. Tapi aku dapatkan."
+
+Alya tersenyum kecil, memalingkan wajahnya. Aku tahu dia sedang menyembunyikan rona merah di pipinya. "Ah, kamu bisa saja. Jangan terlalu lebay, nanti aku malah nangis."
+
+"Tidak apa-apa. Kalau kamu menangis, aku juga yang menghapus air matamu, kan?" balasku sambil tertawa.
+
+Hujan terus turun, tapi di dalam hati kami, hangatnya cinta terasa seperti sinar matahari yang menembus kabut. Hari itu, seperti hari-hari sebelumnya, aku sadar bahwa kebahagiaan tidak harus selalu tentang sesuatu yang besar atau luar biasa. Kadang, itu hanya tentang berbagi secangkir teh hangat dan melihat senyuman orang yang kita cintai.
+</span>
+        <span class="read-more" onclick="toggleText()">Baca Selengkapnya...</span>
+                </p>
+              </div>
             </div>
-            <div class="card premium">
-                <h2 class="card-title">Jumat</h2>
-                <ul class="card-list">
-                    <li>EKONOMI</li>
-                    <li>MTK</li>
-                    <li>BIOLOGI</li>
-                </ul>
-            </div>
+          </div>
         </div>
-    </section>
-    
-    
-<footer>
-            <p>&copy; XII-10 SMAN 1 SEPUTIH AGUNG.</p>
-<div class="social-links">
+      </div>
+    </div>
+  </section>
+
+      <section class="info_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              developer Information 
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="images/location-white.png" width="18px" alt="">
+              </div>
+              <p>
+                Address Indonesia
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/telephone-white.png" width="12px" alt="">
+              </div>
+              <p>
+                +62 857 8998 7714
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/envelope-white.png" width="18px" alt="">
+              </div>
+              <p>
+                maourafa@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              Informations
+            </h5>
+            <p>SMAN 1 SEPUTIH AGUNG</p>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Newsletter
+            </h5>
+            <form action="">
+              <input type="email" placeholder="Enter your email">
+              <button>
+                Subscribe
+              </button>
+            </form>
+    <footer>
+<div class="social-box">
     <!-- WhatsApp -->
     <a href="https://wa.me/+6282278687542" class="social-button whatsapp">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
@@ -76,5 +324,61 @@
     </a>
         </div>
     </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2020 All Rights Reserved By
+      <a href="https://list.maourafavpn.my.id">maourafa</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- owl carousel script 
+    -->
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 0,
+      navText: [],
+      center: true,
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+  <script>
+         function toggleText() {
+            var moreText = document.querySelector('.more');
+            var readMoreText = document.querySelector('.read-more');
+
+            if (moreText.style.display === 'none') {
+                moreText.style.display = 'inline'; // Tampilkan teks tambahan
+                readMoreText.textContent = ' Read Less'; // Ubah teks menjadi "Read Less"
+            } else {
+                moreText.style.display = 'none'; // Sembunyikan teks tambahan
+                readMoreText.textContent = ' Read More'; // Kembali ke teks "Read More"
+            }
+        }
+  </script>
 </body>
 </html>
